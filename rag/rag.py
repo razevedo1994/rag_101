@@ -64,5 +64,6 @@ def rag(query, top_k=3):
     answer = generate_answer(query, retrieved)
     return answer, retrieved
 
+
 answer, docs = rag("O que é machine learning?")
 print(answer)
